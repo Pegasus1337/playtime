@@ -1,0 +1,121 @@
+* {
+    padding : 0 ;
+    margin : 0 ;
+}
+body{
+    background-color : #EFF1E6 ;
+    overflow:hidden ; 
+}
+
+
+#logo{
+    width :12em;
+    margin : 30px ;
+    margin-top : 30px;
+}
+
+
+.navbar_links{
+    margin-top :3.5em ;
+    
+}
+
+
+.navbar_links a{
+
+    color :#707070 ;
+    text-decoration : none ;
+    font-weight : 700 ;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom : solid 3px #E2E24A ;
+    padding : 0 1em 0.5em 1em ;
+    padding-bottom : 10px ;
+}
+
+.navbar_links a:visited{
+    color :#707070 ;
+    text-decoration : none ; 
+}
+
+
+h1{
+  margin-bottom : 1.5em ;
+  margin-top: 3.2em ;
+  font-weight : bold ;
+  color : #32448A ;
+}
+.heading p{
+    max-width : 500px;
+    color :rgb(99, 120, 129) ;
+    font-weight : 600 ;
+    margin-left : 3.5em ;
+
+}
+
+
+.btn{
+    color : #1D5DF2 ;
+    font-weight :bold ;
+    border : solid 2px #1761B7 ; 
+    border-radius : 35px; 
+    padding-left : 1.5em ;
+    padding-right :  1.5em ;
+    margin-left : 14.3em ;
+    margin-top : 2.3em ;
+}
+
+
+.btn:hover {
+    border :solid 2px #1D5DF2 ; 
+    background-color : #1761B7 ;
+    color : white ;
+}
+
+.links{
+   padding-left : 1.7em ;
+}
+
+.links img{
+    margin-top : 0.3em ;
+    padding : 0 0.5em 0 0.5em ;
+    width : 2.5em ;
+    margin-bottom : 0 ;
+
+}
+
+footer {
+    color :#686464 ;
+    font-size : 15px  ;
+    text-decoration : italic ;
+    font-weight : 550 ;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   /* margin-top:1em ; */
+}
+
+
+.main-picture img{
+    width : 25em ;
+    margin-top : 3em ;
+    margin-left : 3em ;
+    margin-bottom : 0 ;
+}
+
+.heading{
+    position : relative ;
+}
+
+#heading-text {
+    z-index : 100 ;
+}
+
+.heading img{
+    z-index : -10 ; 
+    position : absolute ;
+    top : 0 ;
+    left : 2em ;
+    width : 26em ;
+}
+
+.btn {
+    background-color :white ;
+}
